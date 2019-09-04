@@ -2,17 +2,19 @@
     <h1 align="center">Validadores de Código de Barras (GTIN/EAN)</h1>
     <h3 align="center">Funções para realizar a validação do Código de Barras (GTIN/EAN).</h3>
 </p>
-
+<br>
 
 O que é o código GTIN/EAN?
 -------------------
 "GTIN significa Número Global do Item Comercial. Se trata de um padrão criado e administrado pela GS1. É ele que aparece abaixo dos códigos de barras, amplamente utilizados no varejo físico para identificação de produtos.
 
-Sua forma mais comum é de 13 dígitos, podendo também ser formado por 8, 12 ou 14 dígitos. No mundo virtual, os canais digitais usam esses identificadores únicos para estabelecer a singularidade de um produto." FONTE: [gs1-br - códigos e padrões](https://www.gs1br.org/codigos-e-padroes/chaves-de-identificacao/gtin)
+Sua forma mais comum é de 13 dígitos, podendo também ser formado por 8, 12 ou 14 dígitos. No mundo virtual, os canais digitais usam esses identificadores únicos para estabelecer a singularidade de um produto".
+
+FONTE: [gs1-br - códigos e padrões](https://www.gs1br.org/codigos-e-padroes/chaves-de-identificacao/gtin)
 
 Como validar o GTIN/EAN?
 -------------------
-###### Código com 8 dígitos
+### Código com 8 dígitos
 Some dígitos nas posições "ímpares" multiplicados por três, some os dígitos nas posições "pares" e então some os dois resultados. O dígito verificador é o valor que somado ao total calculado resulte em um múltiplo de dez.
 
 **Exemplo:** 78918344
@@ -28,7 +30,7 @@ Some dígitos nas posições "ímpares" multiplicados por três, some os dígito
 > Subtraí a soma das posições do código para obter o dígito verificador: 100 - 96 = 4
 ```
 
-###### Código com 13 ou mais dígitos
+### Código com 13 ou mais dígitos
 Some os dígitos nas posições "pares" multiplicados por três, some dígitos nas posições "ímpares" e então some os dois resultados. O dígito verificador é o valor que somado ao total calculado resulte em um múltiplo de dez.
 
 **Exemplo:** 7891000315507
@@ -46,7 +48,7 @@ Some os dígitos nas posições "pares" multiplicados por três, some dígitos n
 
 Como o código é composto?
 -------------------
-###### Código com 8 dígitos
+### Código com 8 dígitos
 O código GTIN/EAN com 8 dígitos é composto por três partes: País de origem do produto, produto e dígito verificador.
 
 **Exemplo:** 78912342
@@ -57,7 +59,7 @@ O código GTIN/EAN com 8 dígitos é composto por três partes: País de origem 
 > Dígito verificador: 2
 ```
 
-###### Código com 13 dígitos
+### Código com 13 dígitos
 O código GTIN/EAN com 13 dígitos é composto por quatro partes: País de origem do produto, empresa fabricante, produto por ela produzido e dígito verificador.
 
 **Exemplo:** 7891234567895
