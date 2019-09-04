@@ -10,7 +10,7 @@ O que é o código GTIN/EAN?
 
 Sua forma mais comum é de 13 dígitos, podendo também ser formado por 8, 12 ou 14 dígitos. No mundo virtual, os canais digitais usam esses identificadores únicos para estabelecer a singularidade de um produto".
 
-**FONTE:** [GS1-BR - Códigos e padrões](https://www.gs1br.org/codigos-e-padroes/chaves-de-identificacao/gtin)
+**FONTE:** [GS1-BR - Códigos e Padrões](https://www.gs1br.org/codigos-e-padroes/chaves-de-identificacao/gtin)
 
 Como validar o GTIN/EAN?
 -------------------
