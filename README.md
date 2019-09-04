@@ -10,7 +10,7 @@ O que é o código GTIN/EAN?
 
 Sua forma mais comum é de 13 dígitos, podendo também ser formado por 8, 12 ou 14 dígitos. No mundo virtual, os canais digitais usam esses identificadores únicos para estabelecer a singularidade de um produto".
 
-FONTE: [gs1-br - códigos e padrões](https://www.gs1br.org/codigos-e-padroes/chaves-de-identificacao/gtin)
+**FONTE:** [gs1-br - códigos e padrões](https://www.gs1br.org/codigos-e-padroes/chaves-de-identificacao/gtin)
 
 Como validar o GTIN/EAN?
 -------------------
@@ -30,7 +30,7 @@ Some dígitos nas posições "ímpares" multiplicados por três, some os dígito
 > Subtraí a soma das posições do código para obter o dígito verificador: 100 - 96 = 4
 ```
 
-### Código com 13 ou mais dígitos
+### Código com 13 dígitos
 Some os dígitos nas posições "pares" multiplicados por três, some dígitos nas posições "ímpares" e então some os dois resultados. O dígito verificador é o valor que somado ao total calculado resulte em um múltiplo de dez.
 
 **Exemplo:** 7891000315507
@@ -71,4 +71,4 @@ O código GTIN/EAN com 13 dígitos é composto por quatro partes: País de orige
 > Dígito verificador: 5
 ```
 
-Fonte [.Net - Código de Barras](https://imasters.com.br/dotnet/net-codigo-de-barras-ean-8-e-13-parte-01)
+**Fonte:** [.Net - Código de Barras](https://imasters.com.br/dotnet/net-codigo-de-barras-ean-8-e-13-parte-01)
